@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6187ea301730d748aa85c3f2cfcb979, type: 3}
+  m_Name: Control Parameter
+  m_EditorClassIdentifier: 
+  moveSpeed: 12
+  move_deceleration: 80
+  fallAcceleration: 100
+  jumpForce: 23
+  bounceJumpForce: 30
+  hyperJumpForce: 15
+  superJumpTimeForDash: 0.15
+  hyperJump_moveForce: 50
+  maxFallSpeed: -20
+  fallMultiplier: 2
+  lowJumpMultiplier: 20
+  coyoteTime: 0.1
+  jumpBufferTime: 0.15
+  bounceBufferTime: 0.15
+  dashBufferTime: 0.15
+  dashForce: 1500
+  dashForceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.006668091
+      value: 0.9985962
+      inSlope: -0.47930124
+      outSlope: 0
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.30333334
+    - serializedVersion: 3
+      time: 0.9633484
+      value: 0.54005814
+      inSlope: -1.2293934
+      outSlope: -1.2293934
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.046666596
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  dashShakeStrength: 0.5
+  dashShakeFrequency: 2
+  dashShakeDuration: 0.2
+  dashTime: 0.15
+  dashFrameStop: 0.03
+  dashCold: 0
+  dashGroundCold: 0.3
+  maxDashEnergy: 2
+  defMaxDash: 2
+  dashEnergyRestoreSpeed: 0.01
+  dashRotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.03666687
+      value: 0.4901123
+      inSlope: 1.0994927
+      outSlope: 1.0994927
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.08681689
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ghostCount: 3
+  ghostInterval: 0.08
+  ghostFadeOut: 0.3

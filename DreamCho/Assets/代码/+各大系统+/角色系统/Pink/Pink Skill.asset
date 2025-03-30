@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba699d2ea9d95ea4ba46cbd4738fd484, type: 3}
+  m_Name: Pink Skill
+  m_EditorClassIdentifier: 
+  me: {fileID: 11400000, guid: 79f88b67da59f0741ac9aa53d039813f, type: 2}
+  floralParticle_prefab: {fileID: 4439407019332632751, guid: f9cc83aac1694134f89e4ed32ddc7783, type: 3}
+  isFloral: 0
+  domainTime: 5
+  remainTime: 3
